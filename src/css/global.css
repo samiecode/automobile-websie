@@ -14,10 +14,16 @@
 :root{
 	--primary-color: #f15644;
 	--main: #1a1a1a
+	
 }
 
 @layer utilities {
 	.nav-list li a:hover {
 		color: var(--primary-color);
+	}
+
+	.mini-img:hover img{
+		transition: .5s;
+		transform: scale(104%);
 	}
 }
